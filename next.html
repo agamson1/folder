@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="form.css"/>
+
+    <!----===== Iconscout CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <title>Regisration Form</title>
+  </head>
+  <style>
+
+/* table, th, td {
+  border:1px solid black;
+} */
+</style>
+  <body>
+    <img src="images/Logoo.png"class="img">
+    <div class="container">
+     
+      <h2>SIWES</h2>
+      <header>TMD PERSONAL RECORD FORM</header>
+
+      <form action="#">
+        <!-- <div class="form first"> -->
+          <div class="details personal">
+            <span class="title">Personal Details</span>
+
+            <div class="fields">
+              <!-- <div class="input-field">
+                <label> SURNAME</label>
+                <input type="text" placeholder="Enter your surname" required />
+              </div>
+              <div class="input-field">
+                <label>OTHER NAMES</label>
+                <input
+                  type="text"
+                  placeholder="Enter your other name"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>PRESENT HOME ADDRESS</label>
+                <input type="text" placeholder="Enter your address" required />
+              </div>
+
+              <div class="input-field">
+                <label>Mobile Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter mobile number"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>E-MAIL</label>
+                <input type="email" placeholder="Email" required />
+              </div>
+              <div class="input-field">
+                <label>Gender</label>
+                <select required>
+                  <option disabled selected>Select gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="input-field">
+                <label>DATE OF BIRTH</label>
+                <input type="date" required />
+              </div>
+              <div class="input-field">
+                <label>Reg/ Matric Number</label>
+                <input
+                  type="number"
+                  placeholder="Reg / Matric Number"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>CONTACT NAME (IF CASE OF EMERGENCY)</label>
+                <input
+                  type="text"
+                  placeholder="contact name (if case of emergency)"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>CONTACT NUMBER (IF CASE OF EMERGENCY)</label>
+                <input
+                  type="number"
+                  placeholder="contact number"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>CONTACT ADDRESS (IF CASE OF EMERGENCY)</label>
+                <input
+                  type="text"
+                  placeholder="contact address"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Name Of School</label>
+                <input type="text" placeholder="Name Of School" required />
+              </div> -->
+              <div class="input">
+               <span>ANY MEDICAL CHALLENGE</span>
+               <label for="chkYes">
+                <input type="radio" id="chkYes" name="chkPassPort" onclick="ShowHideDiv()"/>YES
+               </label>
+               <label for="chkNo">
+                <input type="radio" id="chkNo" name="chkPassPort" onclick="ShowHideDiv()"/>NO
+               </label>
+               <div id="dvPassport" style="display:none">
+                IF YES,INDICATE:
+                <textarea name=""placeholder="indicate" id="text" cols="30" rows="4"></textarea>
+                 <input type="textarea" placeholder="indicate"/> 
+               </div>
+            </div>
+            <div class ="input">
+              <label> UNIVERSITY</label>
+                <div class="input-field">
+                <label>NAME & ADDRESS OF INSTITUTION </label>
+                <input type="text" required />
+              </div>
+            </div>
+          </div>
+              <table class="table">
+                <thead>
+                    <th> NAME & ADD OF INSTITUTION</th>
+                    <th> LEVEL</th>
+                    <th> COURSE OF STUDY</th>
+                    <th> DEPT.POSTED</th>
+                    <th> PERIOD/YEAR</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="NAME & ADD OF INSTITUTION"><input type="text"></td>
+                        <td data-label="LEVEL"><input type="text"></td>
+                        <td data-label="COURSE OF STUDY"><input type="text"></td>
+                        <td data-label="DEPT.POSTED"><input type="text"></td>
+                        <td data-label="PERIOD/YEAR"><input type="text"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="sumbit">
+              <span class="btnText">Submit</span>
+              <i class="uil uil-navigator"></i>
+            </button>
+            <button class="submit">
+              <a href="form.html">Back</a>
+             </button>
+          </div> 
+        </form>
+      </div>
+  
+      <script src="form.js"></script>
+    </body>
+  </html>
+  
+  
